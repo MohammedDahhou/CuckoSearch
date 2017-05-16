@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>fr.utbm.CuckoSearch.Model.Intervention</class>
+        <class>fr.utbm.CuckoSearch.Model.Patient</class>
+        <class>fr.utbm.CuckoSearch.Model.Periode</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:8889/CuckoSearch"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
